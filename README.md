@@ -1,3 +1,13 @@
+**NOTE**: The alleged bug that this project demonstrates turns out to
+be just the way Ruby works.  It's got nothing to do with rspec.
+Please see this discussion for more explanation:
+
+* https://github.com/rspec/rspec-core/issues/1076
+
+Thanks to Myron Marston for his patient explanation.
+
+-----
+
 This short project illustrates a problem I've encountered with rspec.
 
 Ruby is disinclined to require the same file twice; our tests depend
